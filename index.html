@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Marvel Tower Defense</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-bar" id="waveProgress"></div>
+  <div id="hud">
+    <span>Vida: <span id="vida">999999</span></span>
+    <span>Dinheiro: $<span id="dinheiro">100000000</span></span>
+    <span>Fase: <span id="fase">1</span></span>
+  </div>
+  <canvas id="gameCanvas" width="900" height="600"></canvas>
+  <div id="menu"></div>
+  <div id="poderes">Selecione uma torre para ver os poderes</div>
+  <div id="pausadoMsg">PAUSADO - pressione "P" para continuar</div>
+  <div id="msgBox" style="display:none; position:absolute; top:50%; left:50%; transform: translate(-50%, -50%); background:#000000; color:#fff; padding:20px; border-radius:8px; z-index:100;">
+    <p id="msgText"></p>
+    <button onclick="fecharMsg()">Fechar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
