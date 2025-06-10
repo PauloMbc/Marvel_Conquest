@@ -19,7 +19,7 @@
                 flightAttackCooldown: 500,
             },
             thor: {
-                icon: 'https://i.gifer.com/5N8a.gif',
+                icon: 'https://e0.pxfuel.com/wallpapers/260/787/desktop-wallpaper-thor-ragnarok-marvel-superheroes-marvel-thor-marvel-cinematic-chris-hemsworth-thor-ragnarok-thumbnail.jpg',
                 poder: 'Invoca raios em cadeia que atingem múltiplos alvos. Arremessa o Mjolnir periodicamente. 33% de chance de atordoar.',
                 custo: 200,
                 dano: 35,
